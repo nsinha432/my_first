@@ -8,8 +8,7 @@ public class Secure {
 		
 		Secure sec = new Secure();
 		System.out.println(sec.isSecure(s));
-		
-		
+			
 	}
 	
 	public String isSecure(String s) {
