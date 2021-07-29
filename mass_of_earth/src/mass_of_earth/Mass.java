@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 public class Mass {
 	public static void main(String args[]) {
 		
-		String pattern = "########################";
+		String pattern = "#";
 		
 		double m = 5.972*Math.pow(10, 24);
 		
@@ -12,5 +12,9 @@ public class Mass {
 		
 		System.out.println(m);
 		System.out.println(dc.format(m));
+		
+		//String str1 = String.format("mass is|%10d0|",5972);
+		//System.out.println(str1);
+		
 	}
 }
