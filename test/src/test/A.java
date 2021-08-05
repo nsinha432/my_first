@@ -3,17 +3,12 @@ package test;
 public class A {
 
 	public static void hello() {
-		System.out.println("Hello from static");
+		System.out.println("Hello");
 	}
 	
-	public void tata() {
-		System.out.println("hello from non-static");
+	public void non_staticHello(){
+		System.out.println("hello");
 	}
 	
-	public static void main(String[] args) {
-		A a1 = new B();
-		a1.tata();
-		hello();
-	}
 	
 }
