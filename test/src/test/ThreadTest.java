@@ -2,9 +2,9 @@ package test;
 
 public class ThreadTest {
 	public static void main(String[] args) {
-		Thread t = Thread.currentThread();
+		/*Thread t = Thread.currentThread();
 		//System.out.println(t);
-		t.setName("Nikhil's main");
+		t.setName("Nikhil's main");*/
 		
 		System.out.println(Thread.currentThread());
 		

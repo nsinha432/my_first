@@ -1,6 +1,8 @@
 package test1;
 
-public class TesterBus implements Comparable<TesterBus>{
+import java.io.Serializable;
+
+public class TesterBus implements Comparable<TesterBus>, Serializable{
 	private int id;
 	private String providerName;
 	private double cost;
@@ -25,10 +27,12 @@ public class TesterBus implements Comparable<TesterBus>{
 
 	@Override
 	public int compareTo(TesterBus b) {
-		Float i1 = this.rating;
-		Float i2 = b.rating;
-		return i2.compareTo(i1);
+		Integer i1 = this.id;
+		Integer i2 = b.id;
+		
+		return i1.compareTo(i2);
 	}
+	
 
 	public int getId() {
 		return id;

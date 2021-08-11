@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 public class Mass {
 	public static void main(String args[]) {
 		
-		String pattern = "#";
+		String pattern = "";
 		
 		double m = 5.972*Math.pow(10, 24);
 		
